@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Image } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 import {
     Title,
     Caption,
@@ -148,7 +149,7 @@ function Drawercontent(props) {
                                     source={require('../images/side_logout.png')} />)}
 
                             label="Logout"
-                            onPress={() => { props.navigation.navigate('Mainhome') }}
+                            onPress={() => Actions.Wellcome()}
                         />
                     </Drawer.Section>
                 </View>

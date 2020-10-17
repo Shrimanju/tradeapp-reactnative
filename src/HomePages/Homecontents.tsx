@@ -1,28 +1,3 @@
-// import React from 'react';
-// import { View, Text, StyleSheet, Avatar, Button, Card, Title, Paragraph } from 'react-native';
-// const LeftContent = props => <Avatar.Icon {...props} icon="folder" />
-
-// function Homecontents() {
-//     return (
-//         <View style={styles.container}>
-//             <Text>Home Contents</Text>
-//         </View>
-
-//     );
-// }
-
-// export default Homecontents;
-
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1,
-//         justifyContent: 'center',
-//         alignContent: 'center',
-//         alignItems: 'center',
-//     },
-// });
-
-
 import React, { Component } from "react";
 import {
     View,
